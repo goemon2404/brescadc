@@ -1,0 +1,113 @@
+
+.header-secondary{
+    width: 100%;
+    font-size: .8rem;
+    background-color: #011839;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    max-height: 30px;
+}
+
+.header-secondary a{
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 600;
+}
+.header-secondary a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.header-secondary .site-location{
+    margin-right: 1em;
+}
+
+div .header-primary.StickyToTop{
+    transition: 0.5s;
+    position: sticky;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    
+    
+}
+div .header-primary.FixedToTop{
+    
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height: 80px;
+
+}
+
+
+div .header-primary{
+    height: 90px;
+    width: 100%;
+    background-color: #f1a81c;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+.header-secondary::-webkit-scrollbar{
+    top:0
+}
+.header-primary .site-logo{
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header-primary .nav-item>a:hover{
+    color: white;
+}
+.header-primary .site-logo-img{
+    min-width: 200px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Main-header .site-nav-menu a{
+    font-family:  sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration-line: none !important;
+    transition: all .2s ease-in-out 0s;
+    display: inline-block;
+    color: #011839;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding: 1em 1em;
+    vertical-align: text-top !important;
+}
+.Main-header .site-nav-menu a.btn-brand{
+    color: white;
+   background: #011839;
+   
+   padding: 0.5rem 1rem;
+   border-radius: 2px;
+
+}
+.Main-header .site-nav-menu a.btn-brand:hover{
+   
+   background: none;
+   
+
+
+}
+
+.brand{
+    align-self: center ;
+}

@@ -1,0 +1,115 @@
+
+
+  
+.Carousel-Banner-card{
+  height: auto; /* chỉnh lại */
+
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.Carousel-Banner-card .div-img-background{
+  height: 400px; /* chỉnh lại */
+}
+.Carousel-Banner-card .card-img{
+  height:auto;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div-content{
+  height: 100%;
+  align-content: center;
+  display: grid;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.div-CategoryType-card{
+  height: 100%;
+padding: 0 5px 0 5px;
+
+  
+}
+.CategoryType-card{
+  height: 100%;
+  padding:10px 0px 10px 0px;
+}
+.CategoryType-card .card-img-top{
+  width: 50%;
+  border-radius: 50%;
+  object-fit: fill;
+  align-self: center;
+}
+.CategoryType-card .card-body{
+  color:black;
+}
+.Two-Img{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: hidden;
+
+}
+.Two-Img .Div-Img{
+  position: relative;
+  min-width: 310px;
+  width: 50%;
+  border-radius: 0px  !important;
+  
+}
+.Two-Img .Div-Img img{
+  border-radius: 0px  !important;
+  height: 100%;
+}
+
+
+
+.Div-Img .Card-btn{
+  color: white;
+    background: #011839;
+    padding: 0.5rem 1rem;
+    text-decoration: none !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.5s;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.Div-Img .Card-btn:hover{
+background: #f1a81c;
+}
+.Text-Content{
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 4.5rem;
+  color: #011839;
+  font-weight: 600;
+}
+
+.Text-Content a{
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+
+}
+
+#Skiptheline{
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+
+}

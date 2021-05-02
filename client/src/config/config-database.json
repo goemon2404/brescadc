@@ -1,0 +1,8 @@
+{
+    "mysql":{
+        "host":"locahost",
+        "username":"root",
+        "password":"",  
+        "database":"reactshop"
+    }
+}

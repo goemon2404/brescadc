@@ -1,0 +1,119 @@
+.Container-ProductDetail{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.col-info{
+      
+        padding: 15px;
+}
+.div-info{
+    text-align:start;
+}
+.Container-ProductDetail .Col{
+  background-color:black;
+}
+
+.div-product-name{
+        font-size: 24px;
+    font-weight: 500;
+    color: #1b1b1b;
+}
+
+.div-price{
+        font-size: 20px;
+    font-weight: 500;
+    color: #1b1b1b;
+}
+.div-price p{
+    color: blue;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.div-in-stock{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1b1b1b;
+}
+.div-in-stock p{
+    margin-left:5px;
+    color: #00bfff;
+    
+}
+
+.div-description{
+    font-size: 22px;
+    font-weight: 500;
+    color: red;
+}
+.div-description p{
+    font-size: 18px;
+    color: black;
+}
+
+.input-group{
+    max-width: 150px;
+    width: 100%;
+}
+
+.input-group .quantity-left-minus{
+   
+    width: 40px;
+    margin-right: -2px;
+}
+.input-group .quantity-right-plus{
+    z-index: -9;
+    width: 40px;
+
+    margin-left: -2px;
+}
+
+.input-number{
+    text-align: center;
+    display: block;
+    background: #ddd;
+}
+
+.div-big-img{
+    max-height: 300px;
+    height: 100%;
+    width: auto;
+  
+    
+}
+
+.Big-Img{
+    
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-thumb-img{
+display: flex;
+}
+
+.Thumb-Img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border:1px solid #ddd;
+    border-radius: 5px  !important;
+    opacity: 0.7;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+}
+.Thumb-Img.active{
+    opacity: 1;
+    border: 1px solid lightgreen;
+
+}
+.col-all{
+    
+}

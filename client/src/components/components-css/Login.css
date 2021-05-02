@@ -1,0 +1,58 @@
+.div-loginform{
+    z-index: 1;
+    padding: 60px 75px;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.Container-loginform{
+  
+    padding: 60px 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login{
+    text-align: start;
+}
+.form-login Label{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.div-forgot{
+    text-align: end;
+}
+.div-btn-login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.div-btn-login .btn-login{
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  41%, #4776E5  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 40px;
+       
+      }
+
+      .div-btn-login .btn-login:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+.form-check-input{
+    height: 15px;
+    width: 15px;
+    top:10%;
+}

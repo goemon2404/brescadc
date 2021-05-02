@@ -1,0 +1,221 @@
+ const {products, banner}=this.state.Data;
+        const new_products = products.slice(0,8);
+        const bestsell_products = products.slice(18,26);
+        
+      
+      console.log(new_products)
+      console.log(Data)
+      console.log(banner)
+  return (
+     
+   <Container>
+       <div> 
+       <h1 className="text-primary" >Banner</h1>
+        <Carousel 
+           additionalTransfrom={0}
+           arrows={false}
+           autoPlay={true}
+           autoPlaySpeed={2000}
+           centerMode={false}
+           className="Home-Banner"
+           containerClass="container-with-dots"
+           dotListClass=""
+           draggable
+           focusOnSelect={false}
+           infinite
+           itemClass=""
+           keyBoardControl
+           minimumTouchDrag={80}
+           renderButtonGroupOutside={false}
+           renderDotsOutside={false}
+           responsive={{
+             desktop: {
+               breakpoint: {
+                 max: 3000,
+                 min: 1024
+               },
+               items: 1,
+               partialVisibilityGutter: 40
+             },
+             mobile: {
+               breakpoint: {
+                 max: 464,
+                 min: 0
+               },
+               items: 1,
+               partialVisibilityGutter: 30
+             },
+             tablet: {
+               breakpoint: {
+                 max: 1024,
+                 min: 464
+               },
+               items: 1,
+               partialVisibilityGutter: 30
+             }
+           }}
+           showDots={true}
+           sliderClass=""
+           slidesToSlide={2}
+           swipeable
+         >
+            
+            {new_products.slice(0,2).map(item => ( 
+           
+                <div className="Carousel-ListProducts-card" >
+                    <Card inverse>
+                      <CardImg width="100%" src={"../"} alt="Card image cap" />
+                      <CardImgOverlay>
+                        <CardTitle tag="h5">Card Title</CardTitle>
+                        <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                        <CardText>
+                          <small className="text-muted">Last updated 3 mins ago</small>
+                        </CardText>
+                      </CardImgOverlay>
+                    </Card>
+                </div> 
+            ))}
+            
+            </Carousel>
+       </div>
+       <div> 
+           <h1 className="text-primary" >Sản phẩm mới nhất</h1>
+        <Carousel 
+           additionalTransfrom={0}
+           arrows={false}
+           autoPlay={true}
+           autoPlaySpeed={2000}
+           centerMode={false}
+           className="New-Products"
+           containerClass="container-with-dots"
+           dotListClass=""
+           draggable
+           focusOnSelect={false}
+           infinite
+           itemClass=""
+           keyBoardControl
+           minimumTouchDrag={80}
+           renderButtonGroupOutside={false}
+           renderDotsOutside={false}
+           responsive={{
+             desktop: {
+               breakpoint: {
+                 max: 3000,
+                 min: 1024
+               },
+               items: 4,
+               partialVisibilityGutter: 40
+             },
+             mobile: {
+               breakpoint: {
+                 max: 464,
+                 min: 0
+               },
+               items: 1,
+               partialVisibilityGutter: 30
+             },
+             tablet: {
+               breakpoint: {
+                 max: 1024,
+                 min: 464
+               },
+               items: 2,
+               partialVisibilityGutter: 30
+             }
+           }}
+           showDots={true}
+           sliderClass=""
+           slidesToSlide={2}
+           swipeable
+         >
+            
+            {new_products.map(item => ( 
+           
+                <div className="Carousel-ListProducts-card" >
+                    <Card className="Products-card" >
+                        <CardImg top width="100%" height src={item.ImgLink1} alt="Card image cap" />
+                        <CardBody>
+                        <CardTitle tag="h5">{item.ProductName}</CardTitle>
+                        <CardSubtitle tag="h6"  className="mb-2 text-success">Giá: {item.Price} VND</CardSubtitle>
+                        
+                        <Button color="primary">Thêm vào giỏ hàng</Button>
+                        </CardBody>
+                    </Card>
+                </div> 
+            ))}
+            
+            </Carousel>
+        </div>
+
+
+        <div>
+        <h1 className="text-warning" >Sản phẩm bán chạy nhất</h1> 
+        <Carousel 
+           additionalTransfrom={0}
+           arrows={false}
+           autoPlay={true}
+           autoPlaySpeed={3500}
+           centerMode={false}
+           className="BestSell-Products"
+           containerClass="container-with-dots"
+           dotListClass=""
+           draggable
+           focusOnSelect={false}
+           infinite
+           itemClass=""
+           keyBoardControl
+           minimumTouchDrag={80}
+           renderButtonGroupOutside={false}
+           renderDotsOutside={false}
+           responsive={{
+             desktop: {
+               breakpoint: {
+                 max: 3000,
+                 min: 1024
+               },
+               items: 4,
+               partialVisibilityGutter: 40
+             },
+             mobile: {
+               breakpoint: {
+                 max: 464,
+                 min: 0
+               },
+               items: 1,
+               partialVisibilityGutter: 30
+             },
+             tablet: {
+               breakpoint: {
+                 max: 1024,
+                 min: 464
+               },
+               items: 2,
+               partialVisibilityGutter: 30
+             }
+           }}
+           showDots={true}
+           sliderClass=""
+           slidesToSlide={2}
+           swipeable
+         >
+            
+            {bestsell_products.map(item => ( 
+           
+                <div className="Carousel-ListProducts-card" >
+                    <Card className="Products-card" >
+                        <CardImg top width="100%" height src={item.ImgLink1} alt="Card image cap" />
+                        <CardBody>
+                        <CardTitle tag="h5">{item.ProductName}</CardTitle>
+                        <CardSubtitle tag="h6"  className="mb-2 text-success">Giá: {item.Price} VND</CardSubtitle>
+                        
+                        <Button color="primary">Thêm vào giỏ hàng</Button>
+                        </CardBody>
+                    </Card>
+                </div> 
+            ))}
+            
+            </Carousel>
+        </div>
+        
+    </Container> 
+  );

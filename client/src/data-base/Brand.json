@@ -1,0 +1,13 @@
+[   
+    {"BrandName":"DareU","idCategoryType":1,"Img_link":"DAREU-logo.jpg"},
+    {"BrandName":"Newmen","idCategoryType":1,"Img_link":"Newmen-logo.jpg"},
+    {"BrandName":"AKKO","idCategoryType":1,"Img_link":"AKKO-logo.jpg"},
+    {"BrandName":"Logitech","idCategoryType":1,"Img_link":"Logitech-logo.jpg"},
+    {"BrandName":"Fuhlen","idCategoryType":1,"Img_link":"Fuhlen-logo.jpg"},
+    {"BrandName":"Asus","idCategoryType":1,"Img_link":"Asus-logo.jpg"},
+    {"BrandName":"Razer","idCategoryType":1,"Img_link":"Razer-logo.jpg"},
+    {"BrandName":"Zowie","idCategoryType":1,"Img_link":"Zowie-logo.jpg"},
+    {"BrandName":"Steelseries","idCategoryType":1,"Img_link":"Steelseries-logo.jpg"},
+    {"BrandName":"Corsair","idCategoryType":1,"Img_link":"Corsair-logo.jpg"},
+    {"BrandName":"Warrior","idCategoryType":1,"Img_link":"Warrior-logo.jpg"}
+]

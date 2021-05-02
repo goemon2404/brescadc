@@ -1,0 +1,256 @@
+[
+{"type":"header","version":"4.9.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tckshop"},
+{"type":"table","name":"action","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"brand","database":"tckshop","data":
+[
+{"ID":"1","BrandName":"DareU","Description":""},
+{"ID":"4","BrandName":"Newmen","Description":""},
+{"ID":"5","BrandName":"AKKO","Description":null},
+{"ID":"6","BrandName":"Logitech","Description":null},
+{"ID":"7","BrandName":"Fuhlen","Description":null},
+{"ID":"8","BrandName":"Asus","Description":null},
+{"ID":"16","BrandName":"Razer","Description":""},
+{"ID":"19","BrandName":"Zomwie","Description":""},
+{"ID":"20","BrandName":"Steelseries","Description":""},
+{"ID":"21","BrandName":"Corsair","Description":""},
+{"ID":"33","BrandName":"Warrior","Description":""},
+{"ID":"36","BrandName":"Ajazz ","Description":""},
+{"ID":"39","BrandName":"Zidli","Description":""},
+{"ID":"40","BrandName":"LG","Description":""},
+{"ID":"41","BrandName":"ViewSonic","Description":""},
+{"ID":"42","BrandName":"Acer","Description":""},
+{"ID":"43","BrandName":"MSI","Description":""},
+{"ID":"44","BrandName":"HKC","Description":""},
+{"ID":"45","BrandName":"Dell","Description":""},
+{"ID":"47","BrandName":"AOC","Description":""},
+{"ID":"52","BrandName":"Samsung","Description":""}
+]
+}
+,{"type":"table","name":"buyorder","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"buyorderdetails","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"cart","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"category","database":"tckshop","data":
+[
+{"ID":"1","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}],"CategoryName":"Keyboard","Description":"Bàn phím"},
+{"ID":"2","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}],"CategoryName":"Laptop","Description":"Laptop"},
+{"ID":"3","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}],"CategoryName":"Mouse","Description":"Chuột máy tính "},
+{"ID":"4","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}],"CategoryName":"Gaming_Chair","Description":"Ghế chơi game"},
+{"ID":"5","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}],"CategoryName":"Gaming_headphone","Description":"Tai nghe"},
+{"ID":"6","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}],"CategoryName":"Gaming_monitor","Description":"Màn hình "}
+]
+}
+,{"type":"table","name":"categorytype","database":"tckshop","data":
+[
+{"ID":"1","CategoryTypeName":"Technology","Description":"Công nghệ điện tử"}
+]
+}
+,{"type":"table","name":"comments","database":"tckshop","data":
+[
+{"ID":"4","IdUser":"22","IdProduct":"12","Comment":"ABCD","Time":"2021-01-12 08:45:30"}
+]
+}
+,{"type":"table","name":"discounts","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"images","database":"tckshop","data":
+[
+{"ID":"1","IdProduct":"1","Link":"DareUlk145_01.jpg"},
+{"ID":"2","IdProduct":"1","Link":"DareUlk145_02.jpg"},
+{d
+{"ID":"99","IdProduct":"34","Link":"WGC206BlackWhite_01.jpg"},
+{"ID":"100","IdProduct":"34","Link":"WGC206BlackWhite_02.jpg"},
+{"ID":"101","IdProduct":"34","Link":"WGC206BlackWhite_03.jpg"},
+{"ID":"102","IdProduct":"35","Link":"AssassinKingV2 Black_White_01.jpg"},
+{"ID":"103","IdProduct":"35","Link":"AssassinKingV2 Black_White_02.jpg"},
+{"ID":"104","IdProduct":"35","Link":"AssassinKingV2 Black_White_03.jpg"},
+{"ID":"105","IdProduct":"36","Link":"AjazzAX365-7.1_01.jpg"},
+{"ID":"106","IdProduct":"36","Link":"AjazzAX365-7.1_02.jpg"},
+{"ID":"107","IdProduct":"36","Link":"AjazzAX365-7.1_03.jpg"},
+{"ID":"108","IdProduct":"37","Link":"DareU-EH416-RGB_01.jpg"},
+{"ID":"109","IdProduct":"37","Link":"DareU-EH416-RGB_02.jpg"},
+{"ID":"110","IdProduct":"37","Link":"DareU-EH416-RGB_03.jpg"},
+{"ID":"111","IdProduct":"38","Link":"DareU-EH722S-7.1_01.jpg"},
+{"ID":"112","IdProduct":"38","Link":"DareU-EH722S-7.1_02.jpg"},
+{"ID":"113","IdProduct":"38","Link":"DareU-EH722S-7.1_03.jpg"},
+{"ID":"114","IdProduct":"39","Link":"Zidli-ZH-RB_01.jpg"},
+{"ID":"115","IdProduct":"39","Link":"Zidli-ZH-RB_02.jpg"},
+{"ID":"116","IdProduct":"39","Link":"Zidli-ZH-RB_03.jpg"},
+{"ID":"117","IdProduct":"40","Link":"lg24mp59g_1.jpg"},
+{"ID":"118","IdProduct":"40","Link":"lg24mp59g_2.jpg"},
+{"ID":"119","IdProduct":"40","Link":"lg24mp59g_3.jpg"},
+{"ID":"120","IdProduct":"41","Link":"viewsonic2476_1.jpg"},
+{"ID":"121","IdProduct":"41","Link":"viewsonic2476_2.jpg"},
+{"ID":"122","IdProduct":"41","Link":"viewsonic2476_3.jpg"},
+{"ID":"123","IdProduct":"42","Link":"acervg270_1.jpg"},
+{"ID":"124","IdProduct":"42","Link":"acervg270_2.jpg"},
+{"ID":"125","IdProduct":"42","Link":"acervg270_3.jpg"},
+{"ID":"126","IdProduct":"43","Link":"msig27c4_1.jpg"},
+{"ID":"127","IdProduct":"43","Link":"msig27c4_2.jpg"},
+{"ID":"128","IdProduct":"43","Link":"msig27c4_3.jpg"},
+{"ID":"129","IdProduct":"44","Link":"hkcnb27c2_1.jpg "},
+{"ID":"130","IdProduct":"44","Link":"hkcnb27c2_2.jpg "},
+{"ID":"131","IdProduct":"44","Link":"hkcnb27c2_3.jpg "},
+{"ID":"132","IdProduct":"45","Link":"dellu2417h_1.jpg "},
+{"ID":"133","IdProduct":"45","Link":"dellu2417h_2.jpg "},
+{"ID":"134","IdProduct":"45","Link":"dellu2417h_3.jpg "},
+{"ID":"135","IdProduct":"46","Link":"acerr221q_1.jpg "},
+{"ID":"136","IdProduct":"46","Link":"acerr221q_2.jpg "},
+{"ID":"137","IdProduct":"46","Link":"acerr221q_3.jpg "},
+{"ID":"138","IdProduct":"47","Link":"aoc27b1h_1.jpg "},
+{"ID":"139","IdProduct":"47","Link":"aoc27b1h_2.jpg "},
+{"ID":"140","IdProduct":"47","Link":"aoc27b1h_3.jpg "},
+{"ID":"141","IdProduct":"48","Link":"viewsonicvx2776_1.jpg "},
+{"ID":"142","IdProduct":"48","Link":"viewsonicvx2776_2.jpg "},
+{"ID":"143","IdProduct":"48","Link":"viewsonicvx2776_3.jpg "},
+{"ID":"144","IdProduct":"49","Link":"viewsonicvx2458_1.jpg "},
+{"ID":"145","IdProduct":"49","Link":"viewsonicvx2458_2.jpg "},
+{"ID":"146","IdProduct":"49","Link":"viewsonicvx2458_3.jpg "},
+{"ID":"147","IdProduct":"50","Link":"asusva24ehe_1.jpg"},
+{"ID":"148","IdProduct":"50","Link":"asusva24ehe_2.png"},
+{"ID":"149","IdProduct":"50","Link":"asusva24ehe_3.png"},
+{"ID":"150","IdProduct":"51","Link":"dells2419hgf_1.jpg"},
+{"ID":"151","IdProduct":"51","Link":"dells2419hgf_2.jpg"},
+{"ID":"152","IdProduct":"51","Link":"dells2419hgf_3.jpg"},
+{"ID":"153","IdProduct":"52","Link":"samsungls24r350_1.png"},
+{"ID":"154","IdProduct":"52","Link":"samsungls24r350_2.png"},
+{"ID":"155","IdProduct":"52","Link":"samsungls24r350_3.png"},
+{"ID":"168","IdProduct":"57","Link":"AKKO123_01.jpg"},
+{"ID":"169","IdProduct":"57","Link":"AKKO123_02.jpg"},
+{"ID":"170","IdProduct":"57","Link":"AKKO123_03.jpg"}
+]
+}
+,{"type":"table","name":"orderstatus","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"permission","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"products","database":"tckshop","data":
+[
+{"ID":"1","ProductName":"Bàn phím Gaming DareU LK145 USB","Price":"340000","Description":"MULTI LED COLOR\r\nMembrane Keyboard (giả cơ)\r\n104 key\r\nN-key rollover: 19-key\r\nHiệu ứng LED: 5\r\nDây: 1.8m\r\nMẶT TRÊN ĐƯỢC LÀM BẰNG KIM LOẠI CHỐNG CHÁY.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"DareUlk145_01.jpg","ImgLink2":"DareUlk145_02.jpg","ImgLink3":"DareUlk145_03.jpg"}]},
+{"ID":"2","ProductName":"Bàn phím cơ Gaming DAREU EK87 - Black (Multi-LED)","Price":"490000","Description":"DAREU EK87 - Black (Multi-LED) là chiếc bàn phím cơ giá rẻ dạng tenkeyless (nhỏ gọn, lược bỏ dãy phím số bên phải). Đây là thiết kế rất thân thiện với game thủ, những người không có nhu cầu sử dụng dãy phím số bên phải, đặc biệt thích hợp cho việc mang theo mình đi thi đấu hoặc chơi cùng bạn bè ở các cyber game.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"DareUEK87_01.jpg","ImgLink2":"DareUEK87_02.jpg","ImgLink3":"DareUEK87_03.jpg"}]},
+{"ID":"3","ProductName":"Bàn phím cơ DareU EK520 Optical","Price":"790000","Description":"Nhà Sản Xuất : DareU\r\nTình Trạng: Mới 100% - Fullbox\r\nBảo Hành: 24 tháng\r\nSwitch : Optical","IdCategoryType":"1","InStock":18,"img":[{"ImgLink1":"DareUEK520_01.jpg","ImgLink2":"DareUEK520_02.jpg","ImgLink3":"DareUEK520_03.jpg"}]},
+{"ID":"4","ProductName":"Bàn phím cơ Newmen GM368","Price":"790000","Description":"Xung đột sẽ không xảy ra khi nhấn nhiều phím cùng một lúc: các phím được xác định một cách chính xác với tốc độ nhập bằng tay mà không sai một ly, giúp người dùng thoải mái hơn khi sử dụng trong các trò chơi.\r\nThiết kế khung bàn phím cơ newmen không viền cho led sáng hơn.\r\nTuổi thọ phím lên tới 50 triệu lần bấm.\r\nKeycap được cấu tạo 2 lớp (double-shot) chống mòn ký tự.\r\nChức năng đa phương tiện được được tích hợp vào hàng phím F và 4 phím mũi tên.\r\nAnti-ghosting chống xung đột khi bấm nhiều phím cùng lúc.\r\nChống bụi, nước, tàn thuốc\r\nHiệu ứng ánh sáng bắt mắt\r\nSử dụng hợp kim nhôm bền vững","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"NewmenGM368_01.jpg","ImgLink2":"NewmenGM368_02.jpg","ImgLink3":"NewmenGM368_03.jpg"}]},
+{"ID":"5","ProductName":"Bàn phím AKKO 3087 Midnight (Akko sw)","Price":"890000","Description":"Hãng sản xuất: Akko\r\nSWITCH: Akko (Blue\/Orange\/Pink)\r\nBàn phím AKKO 3087 Midnight (Akko sw) Với bộ Switch được thiết kế tỉ mỉ từng chi tiết với 3 lựa chọn (Blue\/Orange\/Pink). Phù hợp với hầu hết nhu cầu của người dùng. Chỉ cần thử một lần, chắc chắn bạn sẽ không thể gõ lại bàn phím thông thường được nữa.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"AKKO3087_01.jpg","ImgLink2":"AKKO3087_02.jpg","ImgLink3":"AKKO3087_03.jpg"}]},
+{"ID":"6","ProductName":"Bàn phím Logitech G213","Price":"870000","Description":"Nhà Sản Xuất : Logitech\r\nSwitch:  MECH DOME key\r\nBảo Hành : 24 tháng\r\nLogitech G213 chiếc bàn phím chơi game hiện đại có 5 chế độ chiếu sáng riêng trong phổ màu gồm khoảng 16,8 triệu màu. Thay đổi màu cho phù hợp với bố cục, các trò chơi cụ thể hoặc chỉ là để thể hiện màu sắc yêu thích \r\nChiều cao: 218 mm\r\nChiều rộng: 452 mm\r\nChiều dày: 33 mm\r\nTrọng lượng: 1000 g\r\nChiếu sáng nền: RGB (5 khu vực)","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"LogitechG213_01.jpg","ImgLink2":"LogitechG213_02.jpg","ImgLink3":"LogitechG213_03.jpg"}]},
+{"ID":"7","ProductName":"Bàn phím Fuhlen Subverter RGB","Price":"1090000","Description":"Nhà sản xuất : Fuhlen\r\nBảo hành : Chính hãng 24 tháng\r\nSwitch : Quang Học\r\nLed RGB 16.8 triệu màu nhiều chế độ tùy chỉnh.\r\nTính năng Anti-Ghosting cho phép nhận nhiều phím cùng lúc \r\nSử dụng switch quang cơ cho cảm giác gõ hoàn hảo, độ bền lên đến 50 triệu lần nhấn ","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"Fuhlen_01.jpg","ImgLink2":"Fuhlen_02.jpg","ImgLink3":"Fuhlen_03.jpg"}]},
+{"ID":"8","ProductName":"Laptop ASUS TUF GAMING FX505GE","Price":"24590000","Description":"Intel Core i7 8750H 2.2Ghz, 8GB DDR4 2666Mhz, 1TB HDD, GTX1050Ti, 15.6\" 1920x1080","IdCategoryType":"1","InStock":17,"img":[{"ImgLink1":"asusFX505GE_01.jpg","ImgLink2":"asusFX505GE_02.jpg","ImgLink3":"asusFX505GE_03.jpg"}]},
+{"ID":"9","ProductName":"Laptop ASUS TUF GAMING FX705GM","Price":"32990000","Description":"Intel Core i7 8750H 2.2Ghz, 16GB DDR4 2666Mhz, 1TB HDD, GTX1060, 17.3\" 1920x1080","IdCategoryType":"1","InStock":19,"img":[{"ImgLink1":"asusFX705GM_01.jpg","ImgLink2":"asusFX705GM_02.jpg","ImgLink3":"asusFX705GM_03.jpg"}]},
+{"ID":"10","ProductName":"Laptop ASUS F570ZD","Price":"15990000","Description":"AMD Ryzen 5 2500U 2.0Ghz, 4GB DDR4 2400Mhz, 1TB HDD, GTX 1050, 15.6\" 1920x1080","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"asusF570ZD_01.jpg","ImgLink2":"asusF570ZD_02.jpg","ImgLink3":"asusF570ZD_03.jpg"}]},
+{"ID":"11","ProductName":"Laptop ASUS X407UA","Price":"10190000","Description":"Intel Core i3 8130U 2.2Ghz, 4GB DDR4 2400Mhz 1TB HDD, Intel UHD 620, 14\" 1366x768","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"asusX407UA_01.jpg","ImgLink2":"asusX407UA_02.jpg","ImgLink3":"asusX407UA_03.jpg"}]},
+{"ID":"12","ProductName":"Laptop Gaming Asus ROG Strix G G512 IAL013T","Price":"22590000","Description":"VGA Geforce GTX 1650ti, 4GB, SSD 512GB, Win10 SL","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"asusROG_01.jpg","ImgLink2":"asusROG_02.jpg","ImgLink3":"asusROG_03.jpg"}]},
+{"ID":"13","ProductName":"Laptop Asus D509DA EJ116T","Price":"9390000","Description":"AMD Ryzen 3-3200U (2.6GHz upto 3.5GHz, 2 nhân 4 luồng, 5MB), 4GB DDR4 2400MHz, HDD 1TB 5400rp, AMD Radeon™ Vega 3 Graphics","IdCategoryType":"1","InStock":4,"img":[{"ImgLink1":"asusD509DA_01.jpg","ImgLink2":"asusD509DA_02.jpg","ImgLink3":"asusD509DA_03.jpg"}]
+{"ID":"14","ProductName":"Chuột Logitech G102 Lightsync RGB White","Price":"450000","Description":"DPI:8000, Gia tốc :30g, Switch:Omron, Chất liệu vỏ:ABS, Kết nối : USB, Dây:210cm, Phần mềm:Logitech G-Hub, Trọng lượng :85g","IdCategoryType":"1","InStock":5,"img":[{"ImgLink1":"logitech-g102-lightsync-rgb-white-1.jpg","ImgLink2":"logitech-g102-lightsync-rgb-white-2.jpg","ImgLink3":"logitech-g102-lightsync-rgb-white-3.jpg"}]},
+{"ID":"15","ProductName":"Chuột Logitech G102 Lightsync RGB Black","Price":"450000","Description":"DPI:8000, Gia tốc :30g, Switch:Omron, Chất liệu vỏ:ABS, Kết nối : USB, Dây:210cm, Phần mềm:Logitech G-Hub, Trọng lượng :85g","IdCategoryType":"1","InStock":80,"img":[{"ImgLink1":"logitech-g102-lightsync-rgb-black-1.jpg","ImgLink2":"logitech-g102-lightsync-rgb-black-2.jpg","ImgLink3":"logitech-g102-lightsync-rgb-black-3.jpg"}]},
+{"ID":"16","ProductName":"Chuột Razer Viper Mini","Price":"1290000","Description":"DPI:8500,Switch:Razer Switch,Kết nối : USB,Dây:210cm,Phần mềm:Razer Synapse 3,Trọng lượng :61g,Led:16.8 triệu màu","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"razer-viper-mini-gaming-mouse-1.jpg","ImgLink2":"razer-viper-mini-gaming-mouse-2.jpg","ImgLink3":"razer-viper-mini-gaming-mouse-3.jpg"}]},
+{"ID":"17","ProductName":"Chuột Razer Deathadder Essential","Price":"1290000","Description":"DPI:6400,Switch:Razer Switch,Kết nối : USB,Dây:210cm,Phần mềm:Razer Synapse 3,Trọng lượng :61g,Led:16.8 triệu màu","IdCategoryType":"1","InStock":11,"img":[{"ImgLink1":"razer-deathadder-gallery-1.jpg","ImgLink2":"razer-deathadder-gallery-2.jpg","ImgLink3":"razer-deathadder-gallery-3.jpg"}]},
+{"ID":"18","ProductName":"Chuột Razer Basilisk Ultimate","Price":"3990000","Description":"DPI:20000,Switch:Razer Switch,Kết nối : USB,Dây:210cm,Phần mềm:Razer Synapse 3,Trọng lượng :107g,Led:16.8 triệu màu","IdCategoryType":"1","InStock":20,"img":[{"ImgLink1":"gearvn-chuot-razer-basilisk-ultimate-1.jpg","ImgLink2":"gearvn-chuot-razer-basilisk-ultimate-2.jpg","ImgLink3":"gearvn-chuot-razer-basilisk-ultimate-3.jpg"}]},
+{"ID":"19","ProductName":"Chuột Zowie BenQ EC2 v2","Price":"1750000","Description":"DPI:3200,Kết nối :USB 2.0 \/ 3.0 Plug & Play,Dây:2m \/ 6,6 ft,Trọng lượng :90g,Led:16.8 triệu màu","IdCategoryType":"1","InStock":50,"img":[{"ImgLink1":"thumbchuot_1.jpg","ImgLink2":"thumbchuot_2.jpg","ImgLink3":"thumbchuot_3.jpg"}]},
+{"ID":"20","ProductName":"Chuột Steelseries Rival 3","Price":"850000","Description":"Kết nối :USB,Dây:1.8m,Trọng lượng :77g,Led:16.8 triệu màu,Chất liệu:Nhựa ABS,Màu: Đen nhám","IdCategoryType":"1","InStock":44,"img":[{"ImgLink1":"chuot-steelseries-rival-3-gearvn-1.jpg","ImgLink2":"chuot-steelseries-rival-3-gearvn-2.jpg","ImgLink3":"chuot-steelseries-rival-3-gearvn-3.jpg"}]},
+{"ID":"21","ProductName":"Chuột Corsair Katar Pro Ultra Light","Price":"400000","Description":"DPI:124000,Kết nối :USB,Trọng lượng :69g,Led:Đơn sắc,Chất liệu:Nhựa ABS,Màu: Đen nhám,Phầm mềm:CORSAIR iCUE","IdCategoryType":"1","InStock":66"img":[{"ImgLink1":"gearvn-chuot-corsair-katar-pro-ultra-light-666_1.jpg","ImgLink2":"gearvn-chuot-corsair-katar-pro-ultra-light-666_2.jpg","ImgLink3":"gearvn-chuot-corsair-katar-pro-ultra-light-666_3.jpg"}]},
+{"ID":"22","ProductName":"Chuột Corsair DarkCore RGB Pro SE Wireless","Price":"2580000","Description":"DPI:124000,Kết nối :USB,Trọng lượng :142g,Led:Đơn sắc,Chất liệu:Nhựa ABS,Màu: Đen nhám,Phầm mềm:CORSAIR iCUE","IdCategoryType":"1","InStock":11,"img":[{"ImgLink1":"chuot-corsair-dark-core-rgb-pro-se-1.jpg","ImgLink2":"chuot-corsair-dark-core-rgb-pro-se-2.jpg","ImgLink3":"chuot-corsair-dark-core-rgb-pro-se-3.jpg"}]},
+{"ID":"23","ProductName":"Chuột Dare-U LM115G - Pink","Price":"200000","Description":"Chuẩn Kết Nối :Sóng 2.4G,DPI: 800-1200-1600,Kích Thước 107.5*59.15*38.29mm,Pin  01* AA,Trọng Lượng 90g +\/- 10g","IdCategoryType":"1","InStock":12,"img":[{"ImgLink1":"Dare-U_LM115G_1.jpg","ImgLink2":"Dare-U_LM115G_2.jpg","ImgLink3":"Dare-U_LM115G_3.jpg"}]},
+{"ID":"24","ProductName":"Chuột gaming Dare-U A960 Ultralight","Price":"890000","Description":"Kết nối :USB Loại cảm biến: Pixart PMW3337 Số nút bấm :6 Độ bền: DAREU (50 triệu lần click) Đèn LED :RGB - Powered by DareU Tint DPI: 800-18.000 Tốc độ tối đa :420 IPS Tốc độ phản hồi ( USB):1000Hz  lượng: 65g (chỉ chuột) Chiều dài dây :1.8 m","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"gearvn-chuot-gaming-dare-u-a960-ultralight-666_1.jpg","ImgLink2":"gearvn-chuot-gaming-dare-u-a960-ultralight-666_2.jpg","ImgLink3":"gearvn-chuot-gaming-dare-u-a960-ultralight-666_3.jpg"}]},
+{"ID":"25","ProductName":"Chuột Fuhlen F200","Price":"290000","Description":"Model: F200 Thiết kế Egonomic, vừa tay, phù hợp cho người dùng Game Tích hợp 6 phím, đèn led 7 màu có thể điều chỉnh Vỏ ngoài được tráng bạc, với công nghệ khắc laser tạo ra hiệu ứng đèn led ma trận đẹp mắt Cảm biến quang học cho độ chính xác cao khi chơi game DPI: 1200\/1600\/2400\/3200 DPI Chơi game chuyên nghiệp, thiết lập nhiều chế độ Huano switch 10 triệu lần nhấn Đệm feet Teflon lớn và rất dày, không lo bị mòn sau thời gian dài sử dụng Kiểu giao tiếp: USB, dây dù chống đứt.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"chuot-fuhlen-f200-1.jpg","ImgLink2":"chuot-fuhlen-f200-2.jpg","ImgLink3":"chuot-fuhlen-f200-3.jpg"}]},
+{"ID":"26","ProductName":"Chuột Asus ROG Chakram","Price":"3890000","Description":"Kết nối:Có dây \/ Không dây RF 2.4GHz \/ Bluetooth Mắt đọc: Quang học Kích thước: 132.7 x 76.6 x 42.8 mm Trọng lượng: 121.6 g Màu: Đen DPI: 100 – 16000 Đèn LED hiển thị: RGB Aura Sync","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"gearvn-chuot-asus-rog-chakram-1.jpg","ImgLink2":"gearvn-chuot-asus-rog-chakram-2.jpg","ImgLink3":"gearvn-chuot-asus-rog-chakram-3.jpg"}]},
+{"ID":"27","ProductName":"Chuột Asus Cerberus","Price":"590000","Description":"Với ngoại hình được thiết kế theo kiểu đối xứng để thuận tiện cho người dùng thuận  tay trái hoặc tay phải. Đây được xem là một trọng những dòng chuột gaming giá rẻ với chỉ số DPI cao nhất lên đến 2500 giúp người dùng thao tác nhanh trên các tự Game sử dụng chuột nhiều.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"AsusCerberus_01.jpg","ImgLink2":"AsusCerberus_02.jpg","ImgLink3":"AsusCerberus_03.jpg"}]},
+{"ID":"28","ProductName":"Chuột Razer Deathadder Essential","Price":"1290000","Description":"Thiết kế công thái học cho người dùng tay phải, đỉnh cao về thiết kế. Cảm biến quang học cao cấp cho độ chính xác cao. Phiên bản giản lược của DeathAdder Elite với mức giá rất hợp lý","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"DeathadderEssential_01.jpg","ImgLink2":"DeathadderEssential_02.jpg","ImgLink3":"DeathadderEssential_03.jpg"}]},
+{"ID":"29","ProductName":"Chuột Logitech G304 Wireless","Price":"790000","Description":"Chuột Logitech G304 là chuột chơi game không dây LIGHTSPEED được thiết kế cho hiệu suất thực sự với các đột phá công nghệ mới nhất ở mức giá thành phù hợp. Đó là chơi game không dây thế hệ mới, hiện đã sẵn sàng cho mọi game thủ. ","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"G304Wireless_01.jpg","ImgLink2":"G304Wireless_02.jpg","ImgLink3":"G304Wireless_03.jpg"}]},
+{"ID":"30","ProductName":"Chuột Logitech G502 Hero","Price":"1790000","Description":"G502 HERO có cảm biến quang học tiên tiến cho độ chính xác theo dõi tối đa, tính năng chiếu sáng RGB có thể tùy chỉnh, cấu hình trò chơi tùy chỉnh, từ 100 cho tới 16.000 DPI và các khối nặng có thể đặt lại vị trí.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"G502Hero_01.jpg","ImgLink2":"G502Hero_02.jpg","ImgLink3":"G502Hero_03.jpg"}]},
+{"ID":"31","ProductName":"Chuột Logitech G102 Lightsync RGB Black","Price":"599000","Description":"Độ phân giải : 8000 DPI Led RGB 16.8 triệu màu với tính năng Lightsync đồng bộ led của Logitech Bổ sung hiệu ứng sóng cho dải led RGB của chuột Mắt đọc được nâng cấp cho gia tốc tốt hơn  Sử dụng switch Omron cho độ bền cao hơn","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"G102LightsyncRGBBlack_01.jpg","ImgLink2":"G102LightsyncRGBBlack_02.jpg","ImgLink3":"G102LightsyncRGBBlack_03.jpg"}]},
+{"ID":"32","ProductName":"Chuột Logitech G402 Hyperion","Price":"999000","Description":" G402 được trang bị bên trong một chíp xử lý ARM 32 bit, được hỗ trợ bởi Fusion Engine và đặc biệt hơn là G402 không cần sử dụng bất kỳ phần mềm hỗ trợ nào khi chạy ở tốc độ này. Với tốc độ quét như trên thì polling rate của Hyprerion cũng rất đáng nể, 1000Hz hay độ trễ chỉ ở mức 1 phần nghìn giây.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"G402Hyperion_01.jpg","ImgLink2":"G402Hyperion_02.jpg","ImgLink3":"G402Hyperion_03.jpg"}]},
+
+
+{"ID":"33","4",33","ProductName":"Ghế chơi game Warrior – Maiden Series – WGC306","Price":"3290000","Description":"Chất liệu da PU chống xước + Nhung Trục thủy lực Class 4 với độ ổn định cao Bệ đỡ: Kiểu cánh bướm  Đệm mông ghế được làm bằng khuôn sốp lạnh (cold molded foam)  Lưng ghế được làm bằng đệm nguyên chất (original foam)  Đệm mông và lưng ghế có lỗ thoát khí, tạo nên sự tiện nghi khi sử dụng lâu  Ghế có khả năng ngả được 160 độ, xoay 180 độ  Khung kim loại tạo nên sự chắc chắn, ổn định khi sử dụng  Chân nhựa cứng, bánh xe nhựa được thiết kế giúp giảm thiểu tiếng ồn trong quá trình sử dụng","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"34","4",33","ProductName":"Ghế Warrior Raider Series WGC206 Black\/White","Price":"2789000","Description":"Trục thủy lực Class 4 với độ ổn định cao Bệ đỡ: Kiểu cánh bướm Đệm mông ghế được làm bằng khuôn sốp lạnh (cold molded foam) Lưng ghế được làm bằng đệm nguyên chất (original foam) Ghế có khả năng ngả được 135 độ, xoay 180 độ Tay ghế 2D Khung kim loại tạo nên sự chắc chắn, ổn định khi sử dụng Chân, bánh xe nhựa được thiết kế giúp giảm thiểu tiếng ồn trong quá trình sử dụng","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"35","4",33","ProductName":"Ghế game ANDA SEAT Assassin Black White ","Price":"5290000","Description":"Ghế game ANDA SEAT Assassin Black White Chất liệu: da PU và đệm nguyên khối Kê tay: 4D, xoay nhiều chiều Khung chân: kim loại sơn tĩnh điện đen Trọng lượng tối đa: 150kg Ngả lưng: 170* + 12* Phụ kiện đi kèm: đệm kê lưng, đệm kê đầu","TotalSold":"10","DateAdd":"2020-01-04 03:10:11","Liked":"33","Deleted":"0","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"36","5",36","ProductName":"Tai nghe Ajazz AX365 7.1","Price":"490000","Description":"AJAZZ-AX365 là dòng tai nghe gaming giá rẻ chất lượng cao, âm thanh 7.1 cho trải nghiệm tốt nhất kể cả nghe nhạc, xem phim và chơi game (đặc biệt là các game FPS vốn yêu cầu rất cao về âm thanh vòm). Tai nghe over-ear nên phần chụp tai có kích thước to hơn nhiều loại tai nghe khác. Bên ngoài phần ốp tai được trang bị đèn LED bắt mắt.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"37","5","ProductName":"Tai nghe DareU EH416 RGB","Price":"590000","Description":"Tai nghe gaming giá rẻ DareU EH416 RGB với tông màu chủ đạo là đen bóng huyền bí, cá tính cùng với hai củ tai to và dày mang lại cảm giác mạnh mẽ nhưng cũng không kém phần sang trọng. Trọng lượng của tai nghe khá nhẹ chỉ 450gr dù dáng vẻ hơi cồng kềnh, nên không thích hợp lắm khi mang ra ngoài đường.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"38","5","ProductName":"Tai nghe DareU EH722S 7.1","Price":"890000","Description":"Tai nghe gaming giá rẻ DARE-U EH722S (Đen) là thiết bị giúp cho người nghe có thể nghe được âm thanh trực tiếp thông qua kết cấu loa hai bên, người dùng có thể nghe các dạng âm thanh một cách cách riêng tư, tránh làm phiền đến người xung quanh. Tai nghe DARE-U EH722S (đen) là một sản phẩm uy tín của hãng DAREU cung cấp cho người dùng sự tiện lợi và phù hợp khi sử dụng.","TotalSold":"8","DateAdd":"2020-01-04 03:10:11","Liked":"33","Deleted":"0","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"39","5",39","ProductName":"Tai nghe Zidli ZH 7RB","Price":"490000","Description":"Tai nghe gaming giá rẻ DARE-U EH722S (Đen) là thiết bị giúp cho người nghe có thể nghe được âm thanh trực tiếp thông qua kết cấu loa hai bên, người dùng có thể nghe các dạng âm thanh một cách cách riêng tư, tránh làm phiền đến người xung quanh. Tai nghe DARE-U EH722S (đen) là một sản phẩm uy tín của hãng DAREU cung cấp cho người dùng sự tiện lợi và phù hợp khi sử dụng.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"40","6",40","ProductName":"Màn hình LG 24MP59G-P 24\" IPS 75Hz Freesync chuyên game","Price":"2890000","Description":"Đa số game thủ bình dân đều muốn có cho mình một chiếc màn hình vừa phải có mức giá phải chăng dễ tiếp cận, vừa có những thông số kỹ thuật cân bằng để phục vụ không chỉ việc chơi game mà còn có thể xem phim và làm nhiều chuyện khác nữa. Hiểu được điều đó, LG đã cho ra mắt LG 24MP59G-P - một sự lựa chọn sáng giá trong phân khúc bình dân.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"41","6",41","ProductName":"Màn hình ViewSonic VX2476 24\" IPS 75Hz siêu mỏng","Price":"3150000","Description":"ViewSonic® VX2476-smhd là màn hình LCD Full HD 24 inch được thiết kế cho cả văn phòng lẫn gia đình. Với công nghệ SuperClear® AH-IPS Panel, màn hình này mang lại hiệu suất màn hình tốt nhất với góc nhìn cực rộng. Độ phân giải 1920x1080 sống động và loa kép, kết hợp với thiết kế khung không đường viền mang đến trải nghiệm xem phong phú cho các ứng dụng giải trí gia đình và đa phương tiện. Ngoài ra, công nghệ Flicker-Free, Blue Light Filter và Low EMI giúp giảm thiểu sự mỏi mắt khi xem thời gian dài.","IdCategoryType":"6"},
+{"ID":"42","6",42","ProductName":"Màn hình ACER VG270 27\" IPS 75Hz FreeSync chuyên game","Price":"4550000","Description":"Màn hình thiết kế tràn viền, tấm nền IPS cho màu sắc của game đều đồng nhất, chân thực và rõ nét ở mọi góc nhìn, 178 độ trên dưới trái phải .Độ phủ màu đến 99% sRGB, góp phần làm cho VG270 phù hợp với công việc thiết kế.Độ tương phản tĩnh 1000:1 và tương phản động cực chất 100tr:1 càng làm cho hiển thị màu sắc sâu và sắc nét.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"43","6",43","ProductName":"Màn hình cong MSI OPTIX G27C4 27\" VA 165Hz chuyên game","Price":"5590000","Description":"Màn hình Optix G27C4 sử dụng tấm nền màn hình có độ cong 1500R, thoải mái nhất và phù hợp với nhiều ứng dụng từ điện toán thông thường đến chơi game. Các tấm nền cong cũng giúp cho việc nhập vai vào trò chơi, khiến bạn cảm thấy kết nối nhiều hơn với toàn bộ trải nghiệm.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"44","6",44","ProductName":"Màn hình cong HKC NB27C2 27\" VA 144Hz Chuyên game","Price":"4650000","Description":"Màn Hình Gaming HKC NB27C2 27 Inch Full HD 4MS 144Hz VA có kiểu dáng sang trọng, hiện đại với kích thước màn hình lớn lên đến 27 inch mang đến tầm nhìn siêu vượt trội. Thiết kế màn hình cong cùng tỷ lệ 16:9, bạn sẽ có thể tận hưởng trải nghiệm xem tràn viền, đa nhiệm mượt mà và trải nghiệm chơi game giải trí hoàn hảo chưa từng có.","TotalSold":"12","DateAdd":"2020-01-04 03:10:11","Liked":"33","Deleted":"0","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"45","6",45","ProductName":"Màn hình Dell UltraSharp U2419H 24\" IPS","Price":"5190000","Description":"Màn hình Dell U2419H là màn hình IPS Ultrasharp màn hình tràn viền, 23.8 Inch. Màn hình full HD, thiết kế đẹp mắt sang trọng. Dòng sản phẩm màn hình này hướng tới giới văn phong và những doanh nghiệp với rất nhiều cải tiến về công nghệ và thiết kế sẽ đáp ứng được hầu hết mọi nhu cầu của người sử dụng.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"46","6",42","ProductName":"Màn hình máy tính Acer R221QB UM.WR1SS.B01 21.5","Price":"2890000","Description":"Màn hình máy tính Acer R221QB UM.WR1SS.B01 21.5' IPS là màn hình doanh nghiệp có thiết kế hiện đại cực kỳ mỏng chỉ 6.6mm, và tràn viền, mang lại diện tích hiển thị lớn hơn. Chân đế cách điệu thời thượng, mang lại không gian làm việc hiện đại.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"47","6",47","ProductName":"Màn hình AOC 27B1H 27\" IPS Ultraslim chuyên game","Price":"3300000","Description":"27B1H có thiết kế không viền 3 cạnh thanh lịch, cấu hình siêu mỏng với độ dày 13 mm và độ phân giải Full HD trên tấm nền IPS 27 \". Thưởng thức video, năng suất ở quy mô lớn hơn với 27B1H. Nó cũng bảo vệ mắt bạn bằng Flicker -Công nghệ miễn phí và ánh sáng xanh thấp.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"48","6",41","ProductName":"Màn hình ViewSonic VX2776 27\" IPS 75Hz siêu mỏng","Price":"4290000","Description":"27B1H có thiết kế không viền 3 cạnh thanh lịch, cấu hình siêu mỏng với độ dày 13 mm và độ phân giải Full HD trên tấm nền IPS 27 \". Thưởng thức video, năng suất ở quy mô lớn hơn với 27B1H. Nó cũng bảo vệ mắt bạn bằng Flicker -Công nghệ miễn phí và ánh sáng xanh thấp.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"49","6",41","ProductName":"Màn hình cong ViewSonic VX2458-C 24\" VA 144Hz FreeSync chuyên game","Price":"4390000","Description":"Với độ cong màn hình 1800R, VX2458-C-mhd cho trải nghiệp góc nhìn nhập vai chân thật, để bạn tận hưởng tầm nhìn toàn cảnh rộng lớn, rõ nét và rực rỡ dù đang làm việc hay vui chơi.Với thời gian phản hồi nhanh 1ms tuyệt vời, màn hình này mang lại hình ảnh mịn mà không bị vệt, mờ nét hoặc bóng mờ. ","TotalSold":"5","DateAdd":"2020-01-04 03:10:11","Liked":"33","Deleted":"0","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"50","6","ProductName":"Màn hình ASUS VA24EHE 24\" IPS 75Hz viền mỏng","Price":"2900000","Description":"Màn hình ASUS VA24EHE 24\" IPS 75Hz viền mỏng .Sở hữu thiết kế siêu mỏng, rất thích hợp để lắp đặt trên bàn làm việc, giúp tiết kiệm diện tích làm việc và giúp làm nổi bật góc làm việc của bạn.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"51","6",45","ProductName":"Màn hình Dell Gaming S2419HGF 24\" TN 144Hz FreeSync chuyên game","Price":"5190000","Description":"Màn hình máy tính Dell S2419HGF Gaming thiết kế đơn giản cùng đường viền mỏng ấn tượng, giúp tối ưu hóa tầm nhìn và mang lại bạn hình ảnh rõ nét ở mọi góc nhìn. Màn hình có chân đế vững vàng, giúp hạn chế rung lắc khi có chấn động từ bên ngoài và có thể thể linh hoạt tùy chỉnh độ nghiêng để đáp ứng nhu cầu sử dụng của bạn.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"52","6",52","ProductName":"Màn Hình Samsung LS24R350 24\" IPS 75Hz FreeSync chuyên game","Price":"3100000","Description":"Nét đẹp đến từ sự tinh giản. Từng chi tiết được kiến tạo một cách tinh tế, màn hình phẳng Samsung 24 inch mang đến phong cách thật sự khác biệt đầy tinh tế. Thiết kế tối giản với ba cạnh không viền kết hợp cùng chân đế chữ Y cho trải nghiệm hình ảnh liền mạch không gián đoạn ngay cả khi sử dụng 2 màn hình cùng lúc.","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]},
+{"ID":"57","ProductName":"AKKO123","Price":"1900000","Description":"test them sp ","TotalSold":null,"DateAdd":"2021-01-12 08:48:09","Liked":"0","Deleted":"0","IdCategoryType":"1","InStock":10,"img":[{"ImgLink1":"","ImgLink2":"","ImgLink3":""}]}
+]
+}
+,{"type":"table","name":"productsinwarehouse","database":"tckshop","data":
+[
+
+]
+}
+,{"type":"table","name":"productsliked","database":"tckshop","data":
+[
+{"ID":"13","IdUser":"2","IdProduct":"12"},
+{"ID":"15","IdUser":"4","IdProduct":"11"},
+{"ID":"16","IdUser":"4","IdProduct":"12"},
+{"ID":"17","IdUser":"18","IdProduct":"12"},
+{"ID":"22","IdUser":"20","IdProduct":"10"},
+{"ID":"21","IdUser":"20","IdProduct":"12"},
+{"ID":"23","IdUser":"21","IdProduct":"12"},
+{"ID":"24","IdUser":"21","IdProduct":"10"},
+{"ID":"25","IdUser":"21","IdProduct":"13"},
+{"ID":"26","IdUser":"22","IdProduct":"9"},
+{"ID":"27","IdUser":"22","IdProduct":"11"},
+{"ID":"28","IdUser":"22","IdProduct":"12"}
+]
+}
+,{"type":"table","name":"saleorder","database":"tckshop","data":
+[
+{"ID":"8","IdUser":"22","Status":"1","Total":"71330000","FullName":"truong","Phone":"111111","Address":"test ","Note":"test thêm ","DateCreated":"2021-01-12 08:46:48","DateCompleted":null}
+]
+}
+,{"type":"table","name":"saleorderdetails","database":"tckshop","data":
+[
+{"ID":"18","IdSaleOrder":"8","IdProduct":"11","Quantity":"7"}
+]
+}
+,{"type":"table","name":"user","database":"tckshop","data":
+[
+{"ID":"5","IdRole":"2","UserName":"TCKShop","Password":"$2y$10$skw5iBLlXAFX9SiYYzBDC.U0tGtVavtiWz03y1oxw\/aINjUKhWzzS","FullName":"Nguyen Van A","AvatarLink":"billy-huynh-v9bnfMCyKbg-unsplash","Email":"tckshop2020@gmail.com  ","Phone":null,"Address":null,"Deleted":"0","VerifyCode":null,"CountWrongPW":"0"},
+{"ID":"4","IdRole":"1","UserName":"truong1660665","Password":"$2y$10$VUk.WLBOjTATH5q97CMoaugecz52wawAmn2xWv5ZDLmE0WBH80nUm","FullName":"Nhat Truong","AvatarLink":"13275111931141374133_574_574.jpg","Email":"ntruong2404@gmail.com","Phone":"","Address":"","Deleted":"0","VerifyCode":null,"CountWrongPW":"0"},
+{"ID":"3","IdRole":"1","UserName":"khoa18600133","Password":"$2y$10$skw5iBLlXAFX9SiYYzBDC.U0tGtVavtiWz03y1oxw\/aINjUKhWzzS","FullName":"Le Tien Khoa","AvatarLink":"kazuend-2KXEb_8G5vo-unsplash","Email":"letienkhoa3@gmail.com","Phone":null,"Address":null,"Deleted":"0","VerifyCode":null,"CountWrongPW":"0"},
+{"ID":"2","IdRole":"1","UserName":"khanh18600127","Password":"$2y$10$skw5iBLlXAFX9SiYYzBDC.U0tGtVavtiWz03y1oxw\/aINjUKhWzzS","FullName":"Nguyen Huynh Phuong Khanh ","AvatarLink":"lukasz-lada-LtWFFVi1RXQ-unsplash","Email":"phuongkhanh16022000@gmail.com","Phone":"0336306255","Address":"vo van hat, quan 9, tphcm","Deleted":"0","VerifyCode":null,"CountWrongPW":"4"},
+{"ID":"1","IdRole":"1","UserName":"buu1760014","Password":"$2y$10$skw5iBLlXAFX9SiYYzBDC.U0tGtVavtiWz03y1oxw\/aINjUKhWzzS","FullName":"Nguyen Hoang Buu","AvatarLink":"mohammad-alizade-S5uV7ro4UPY-unsplash","Email":"nhbuu.17ck1@gmail.com","Phone":null,"Address":null,"Deleted":"0","VerifyCode":null,"CountWrongPW":"0"}
+]
+}
+,{"type":"table","name":"userrole","database":"tckshop","data":
+[
+{"ID":"1","RoleName":"Admin","Description":"Quản lý bán hàng"},
+{"ID":"2","RoleName":"Khách hàng ","Description":"Mua hàng "}
+]
+}
+]

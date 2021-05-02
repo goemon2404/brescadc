@@ -1,0 +1,8 @@
+{"CategoryType":[
+    {"Name_CategoryType":"Máy tính & Laptop","Category":[{"Name":"Laptop","Description":"Laptop"},{"Name":"May-tinh-ban","Description":"Máy Tính Bàn"}],"Img_link":"pc-icon.jpg"},
+    {"Name_CategoryType":"Chuột máy tính","Category":[{"Name":"Chuot-thuong","Description":"Chuột thường"},{"Name":"Chuot-khong-day","Description":"Chuột không dây"},{"Name":"Chuot-gaming","Description":"Chuột Gaming "}],"Img_link":"mouse-icon.jpg"},
+    {"Name_CategoryType":"Tai nghe","Category":[{"Name":"Tai-nghe-thuong","Description":"Tai nghe thường"},{"Name":"Tai-nghe-gaming","Description":"Tai nghe Gaming"}],"Img_link":"headphone-icon.jpg"},
+    {"Name_CategoryType":"Bàn Phím","Category":[{"Name":"Ban-phim-thuong","Description":"Bàn phím thường"},{"Name":"Ban-phim-co","Description":"Bàn phím cơ"}],"Img_link":"keyboard-icon.jpg"}
+]}
+
+
